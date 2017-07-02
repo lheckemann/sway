@@ -361,7 +361,8 @@ The default colors are:
 
 **output** <name> <background|bg> <file> <mode>::
 	Sets the wallpaper for the given output to the specified file, using the given
-	scaling mode (one of "stretch", "fill", "fit", "center", "tile").
+	scaling mode (one of "stretch", "fill", "fit", "center", "tile"). This image
+	must be in PNG format unless sway was built with gdk_pixbuf.
 
 **output** <name> <background|bg> <color> solid_color::
 	Sets the background of the given output to the specified color. _color_ should
